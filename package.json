@@ -1,0 +1,32 @@
+{
+  "name": "iframe-responsify",
+  "version": "1.0.0",
+  "description": "A simple, lightweight jQuery plugin to make iframes responsive.",
+  "main": "dist/jquery.iframe-responsive.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesliker/iframe-responsify.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "jquery",
+    "plugins",
+    "iframe",
+    "responsive",
+    "iframe-responsify"
+  ],
+  "author": "Tommy Sliker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tesliker/iframe-responsify/issues"
+  },
+  "homepage": "https://github.com/tesliker/iframe-responsify#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-minify": "0.0.14"
+  }
+}
