@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Iframe Responsify</title>
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="../src/jquery.iframe-responsify.js"></script>
+	</head>
+	<body>
+		<h2>Normal Iframe Embed</h2>
+		<div style="margin-bottom: 30px;">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ja8pA2B0RR4" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<h2>Responsified Iframe Embed</h2>
+		<div class="iframe-responsify">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ja8pA2B0RR4" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<script>
+			$( function() {
+				$( ".iframe-responsify iframe" ).iframeResponsify();
+			} );
+		</script>
+	</body>
+</html>
