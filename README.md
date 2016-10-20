@@ -3,6 +3,25 @@
 
 This plugin uses a CSS method of responsifying an iframe by adding a container around the iframe with a percentage based padding. This is a lightweight approach that allows the javascript to run on document ready rather then resize. It will take the aspect ratio of the current iframe and calculates the padding percentage so that the iframe maintains its aspect ration at whatever size its container is.
 
+## Install
+
+#### Download
+
++ [jquery.iframe-responsify.min.js](https://unpkg.com/iframe-responsify@1.0.0/dist/jquery.iframe-responsify.min.js) minified
++ [jquery.iframe-responsify.js](https://unpkg.com/iframe-responsify@1.0.0/dist/jquery.iframe-responsify.js) un-minified
+
+#### CDN
+
+``` html
+<script src="https://unpkg.com/iframe-responsify@1.0.0/dist/jquery.iframe-responsify.min.js"></script>
+<!-- or -->
+<script src="https://unpkg.com/iframe-responsify@1.0.0/dist/jquery.iframe-responsify.js"></script>
+```
+
+#### Package managers
+
+Install via [npm](https://www.npmjs.com/package/iframe-responsify): `npm install iframe-responsify`
+
 ## Usage
 
 1. Include jQuery:
