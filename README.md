@@ -22,7 +22,13 @@ This plugin uses a CSS method of responsifying an iframe by adding a container a
 	```javascript
 	$("#element iframe").iframeResponsify();
 	```
-  
+	
+## Demo
+
+1. Clone or download the respository
+2. Run ```npm install ``` Inside the directory root
+3. Open ```demo/index.html``` in your browser
+
 ## Contributing
 
 1. Fork it!
